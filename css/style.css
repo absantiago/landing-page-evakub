@@ -2414,7 +2414,7 @@ fieldset:disabled a.btn {
     background-color: #f8f9fa;
     border-color: #f8f9fa; }
   .btn-outline-light:focus, .btn-outline-light.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(upp8, 249, 250, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5); }
   .btn-outline-light.disabled, .btn-outline-light:disabled {
     color: #f8f9fa;
@@ -7995,7 +7995,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: Helvetica,"Nunito Sans", Arial, sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -8254,7 +8254,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   font-weight: 900;
   font-size: 24px;
-  text-transform: uppercase; }
+  text-transform: lowercase; }
   .navbar-brand span {
     font-weight: 900; }
 
@@ -8553,7 +8553,7 @@ h1, h2, h3, h4, h5,
   .slider-text .icon-video span {
     color: #fff; }
   .slider-text .icon-video span.watch {
-    font-family: "Nunito Sans", Arial, sans-serif;
+    font-family: Helvetica,"Nunito Sans", Arial, sans-serif;
     font-size: 16px;
     text-transform: uppercase; }
 

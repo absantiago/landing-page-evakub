@@ -40,7 +40,7 @@ $secondary: #a0f669;
 
 .fonte-eva{
 	font-family:  Helvetica,Arial, sans-serif !important;
-	// text-transform: lowercase !important;
+	text-transform: lowercase !important;
 padding: 10px!important;}
 
 html {
@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5,
 
 
 .ftco-navbar-light {
+	text-transform: lowercase !important;
 	background: transparent!important;
 	position: absolute;
 	top: 0;
@@ -126,6 +127,7 @@ h1, h2, h3, h4, h5,
 	}
 	
 	.navbar-nav {
+		text-transform: lowercase !important;
 		@include media-breakpoint-down(md){
 			padding-bottom: 20px;
 			// margin-left: 20px !important;
@@ -247,7 +249,7 @@ h1, h2, h3, h4, h5,
 		color: rgba(255,255,255,.5)!important;
 		cursor: pointer;
 		padding-right: 0;
-		// text-transform: uppercase;
+		 text-transform: lowercase;
 		font-size: 16px;
 		letter-spacing: .1em;
 		&:hover, &:focus {
@@ -318,7 +320,7 @@ h1, h2, h3, h4, h5,
 			color: rgba(0,0,0,.5)!important;
 			border-color: rgba(0,0,0,.5)!important;
 			cursor: pointer;
-			// text-transform: uppercase;
+			 text-transform: lowercase;
 			font-size: 16px;
 			letter-spacing: .1em;
 
@@ -355,7 +357,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
 	font-weight: 900;
 	font-size: 24px;
-	// text-transform: uppercase;
+	text-transform: lowercase;
 	span{
 		font-weight: 900;
 	}
@@ -374,7 +376,7 @@ h1, h2, h3, h4, h5,
 	  top: 0;
 	  left: 4em;
 	  height: 100%;
-	  // text-transform: uppercase;
+		text-transform: lowercase;
 	  font-weight: 500;
 	  letter-spacing: 5px;
 	  font-size: 16px;
@@ -519,7 +521,7 @@ h1, h2, h3, h4, h5,
 					font-weight: 600;
 					font-size: 14px;
 					letter-spacing: 3px;
-					// text-transform: uppercase;
+					text-transform: lowercase;
 					color: rgba(0,0,0,.3);
 					color: $primary;
 					@include gradient-background();
@@ -697,7 +699,7 @@ h1, h2, h3, h4, h5,
 		span.watch{
 			font-family: $font-primary;
 			font-size: 16px;
-			// text-transform: uppercase;
+			text-transform: lowercase;
 		}
 	}
 	h1 {
@@ -705,7 +707,7 @@ h1, h2, h3, h4, h5,
 		color: $white;
 		line-height: 1.2;
 		font-weight: 400;
-		// text-transform: uppercase;
+		text-transform: lowercase;
 		@include media-breakpoint-down(md) {
 			font-size: 40px;
 		}
@@ -870,7 +872,7 @@ h1, h2, h3, h4, h5,
 		span{
 			font-weight: 500;
 			font-size: 13px;
-			// text-transform: uppercase;
+			text-transform: lowercase;
 			letter-spacing: 2px;
 			color: rgba(255,255,255,.8);
 		}
@@ -1023,7 +1025,7 @@ h1, h2, h3, h4, h5,
 			@include transition(.3s);
 		}
 		.position{
-			// text-transform: uppercase;
+			text-transform: lowercase;
 			color: rgba(0,0,0,1);
 			color: $primary;
 			display: block;
@@ -1302,7 +1304,7 @@ textarea.form-control {
 	z-index: 0;
 
 	.ftco-footer-logo {
-		// text-transform: uppercase;
+		text-transform: lowercase;
 		letter-spacing: .1em;
 	}
 	.ftco-footer-widget {
@@ -1440,7 +1442,7 @@ textarea.form-control {
 		font-size: 16px;
 		display: block;
 		margin-bottom: 5px;
-		// text-transform: uppercase;
+		text-transform: lowercase;
 		color: rgba(0,0,0,.3);
 		letter-spacing: 2px;
 		@include gradient-background();
@@ -1450,7 +1452,7 @@ textarea.form-control {
 	h2{
 		font-size: 40px;
 		font-weight: 600;
-		// text-transform: uppercase;
+		text-transform: lowercase;
 		span{
 			font-weight: 400;
 		}
@@ -1730,7 +1732,7 @@ textarea.form-control {
 			margin-bottom: 10px;
 			font-weight: 500;
 			display: block;
-			// text-transform: uppercase;
+			text-transform: lowercase;
 			letter-spacing: 1px;
 			font-size: 18px;
 		}
@@ -1954,7 +1956,7 @@ textarea.form-control {
 		h3{
 			font-size: 17px;
 			font-weight: 400;
-			// text-transform: uppercase;
+			text-transform: lowercase;
 			color: $white;
 		}
 	}
@@ -2008,7 +2010,7 @@ textarea.form-control {
 /* Blog*/
 .post-info {
 	font-size: 12px;
-	// text-transform: uppercase;
+ 	text-transform: lowercase;
 	font-weight: bold;
 	color: $white;
 	letter-spacing: .1em;
@@ -2025,7 +2027,7 @@ textarea.form-control {
 
 .tagcloud {
 	a {
-		// text-transform: uppercase;
+		text-transform: lowercase;
 		display: inline-block;
 		padding: 4px 10px;
 		margin-bottom: 7px;
@@ -2075,7 +2077,7 @@ textarea.form-control {
 				font-size: 20px;
 			}
 			.meta {
-				// text-transform: uppercase;
+				text-transform: lowercase;
 				font-size: 13px;
 				letter-spacing: .1em;
 				color: #ccc;
@@ -2084,7 +2086,7 @@ textarea.form-control {
 				padding: 5px 10px;
 				background: lighten($black, 90%);
 				color: $black;
-				// text-transform: uppercase;
+				text-transform: lowercase;
 				font-size: 11px;
 				letter-spacing: .1em;
 				font-weight: 400;
