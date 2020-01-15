@@ -8450,7 +8450,7 @@ h1, h2, h3, h4, h5,
           font-weight: 400; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text p {
-              color: rgba(255, 255, 255, 0.7);
+              color: #fff;
               font-size: 23px; } }
     .owl-carousel.home-slider .owl-nav {
       position: absolute;
@@ -8525,6 +8525,9 @@ h1, h2, h3, h4, h5,
         background: rgba(255, 255, 255, 0.4); }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
+.bg-count-color{
+background: #F5FFFA;
+}
 
 .hero-wrap {
   width: 100%;
@@ -8912,7 +8915,7 @@ h1, h2, h3, h4, h5,
   @media (max-width: 767.98px) {
     .ftco-services .nav-link-wrap {
       /* background: #8debd2; */
-      margin-top: 30px; } }
+     } }
 
 .ftco-services .nav-pills p {
   margin-bottom: 0; }
@@ -9467,6 +9470,24 @@ textarea.form-control {
     color: #000000;
     font-size: 30px;
     font-weight: 400; }
+  .ftco-counter .text span.numberTwitter {
+    font-weight: 400;
+    color: #00acee;
+    font-size: 30px;
+    font-weight: 400; }
+
+    .ftco-counter .text span.numberInstagram {
+    font-weight: 400;
+    color: #bc2a8d;
+    font-size: 30px;
+    font-weight: 400; }
+
+    .ftco-counter .text span.numberYoutube {
+    font-weight: 400;
+    color: #c4302b;
+    font-size: 30px;
+    font-weight: 400; }
+
   .ftco-counter .text span {
     color: black;
     margin-bottom: 10px;
@@ -9613,14 +9634,12 @@ textarea.form-control {
       border: 1px solid transparent; }
 
 .contact-section .contact-info p a {
-  color: #fff; }
+  color: #000000; }
 
 .contact-section .box {
   width: 100%;
   display: block;
-  background: #8debd2;
-  color: rgba(255, 255, 255, 0.8);
-  background: #8debd2;
+  color: rgba(0, 0, 0, 0.8);
          /* TRETA */
   /* background: -moz-linear-gradient(-45deg, #8debd2 0%, #8debd2 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #8debd2), color-stop(100%, #8debd2));
@@ -9658,7 +9677,7 @@ textarea.form-control {
     font-size: 17px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #fff; }
+    color: #000000; }
 
 .contact-section .contact-form {
   width: 100%; }
