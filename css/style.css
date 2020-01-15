@@ -8941,7 +8941,7 @@ background: #F5FFFA;
     border-color: transparent #fafafa transparent transparent;
     opacity: 0; }
   .ftco-services .nav-pills .nav-link span {
-    font-size: 24px;
+    font-size: 50px;
     margin-right: 5px;
     color: rgba(255, 255, 255, 0.8); }
   .ftco-services .nav-pills .nav-link.active, .ftco-services .nav-pills .nav-link:hover {
@@ -8973,7 +8973,7 @@ background: #F5FFFA;
   -webkit-text-fill-color: transparent;
 }      
 .icon-side-bar{
-  font-size: 100px;
+  font-size: 200px;
   color: #000000;
   line-height: 1.2;
   background: #f569c6;
