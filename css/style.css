@@ -3473,7 +3473,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -8241,7 +8241,7 @@ h1, h2, h3, h4, h5,
       color: #000000;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      font-size: 24px; }
+      font-size: 28px; }
       .ftco-navbar-light.scrolled .navbar-brand span {
         color: #8debd2;
         background: #8debd2 /*primaria*/;
